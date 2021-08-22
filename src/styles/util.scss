@@ -1,0 +1,17 @@
+.center {
+    background-color: #42A5F5;
+    justify-content: center;
+}
+.mobile-app-logo{
+    max-width: 200px;
+    max-height: 50px;
+}
+
+
+
+@media (min-width: 960px)  {
+    .extra-space-x{
+      padding:1rem 15rem;
+    }
+  }
+  

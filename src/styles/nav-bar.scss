@@ -1,0 +1,38 @@
+.nav__link {
+  color: #f0f8ff;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin: 0 0.5rem;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.hamburger {
+  display: none;
+}
+
+.nav__links{
+  justify-content: center;
+ 
+}
+
+@media (max-width: 600px) {
+  .nav__links {
+    display: none;
+  }
+}
+
+@media (max-width: 600px) {
+  .hamburger {
+    display: block;
+  }
+}
+@media (min-width: 600px) {
+  .nav__toolbar {
+    justify-content: center;
+  }
+}
+
+
