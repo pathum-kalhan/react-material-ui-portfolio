@@ -1,1 +1,0 @@
-{"version":3,"sources":["webpack://src/styles/projects-page.scss"],"names":[],"mappings":"AAAA,iBACE,wBAAyB,CACzB,UAAY","file":"5.b0bca9cb.chunk.css","sourcesContent":[".project__button {\n  background-color: #8bc34a;\n  color: white;\n}\n"]}
