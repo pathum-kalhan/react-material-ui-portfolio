@@ -2,18 +2,17 @@ import React, { Fragment, useState } from "react";
 import clsx from "clsx";
 import { makeStyles, useTheme } from "@material-ui/core/styles";
 import Drawer from "@material-ui/core/Drawer";
-import { List, Collapse } from "@material-ui/core";
+import { List } from "@material-ui/core";
 import Divider from "@material-ui/core/Divider";
 import ListItem from "@material-ui/core/ListItem";
 import IconButton from "@material-ui/core/IconButton";
 import ListItemText from "@material-ui/core/ListItemText";
 import { toggleDrawer } from "../../store/actions/authActions";
-import ExpandLess from "@material-ui/icons/ExpandLess";
-import ExpandMore from "@material-ui/icons/ExpandMore";
+
 import ChevronLeftIcon from "@material-ui/icons/ChevronLeft";
 import ChevronRightIcon from "@material-ui/icons/ChevronRight";
 
-import { useHistory } from "react-router-dom";
+
 import { useDispatch, useSelector } from "react-redux";
 import {State} from "../../store/reducers/index"
 const useStyles = makeStyles({
@@ -34,7 +33,7 @@ function TemporaryDrawer(props:any) {
 
   const [openIndex, setOpenIndex] = useState(0);
 
-  let history = useHistory();
+ 
 
   const handleDrawerClose = () => {
     dispatch(toggleDrawer());

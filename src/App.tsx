@@ -7,7 +7,7 @@ import {
 } from "@material-ui/core/styles";
 import purple from "@material-ui/core/colors/purple";
 
-import Login from "./screens/Login";
+
 import NavBar from "./components/layouts/NavBar";
 import Drawer from "./components/layouts/Drawer";
 import NotFound from "./screens/PageNotFound";
@@ -20,8 +20,7 @@ import "../src/index.css";
 import { Provider } from "react-redux";
 import store from "./store/store";
 
-// protected route
-import ProtectedRoute from "./components/common/ProtectedRoute";
+
 
 import { routes } from "./routes";
 

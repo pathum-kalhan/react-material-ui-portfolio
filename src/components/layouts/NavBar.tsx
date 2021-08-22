@@ -1,30 +1,22 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
   AppBar,
   Toolbar,
   IconButton,
-  Typography,
-  Button,
+  
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
-import ExitToAppIcon from "@material-ui/icons/ExitToApp";
-import { useDispatch, useSelector } from "react-redux";
-import { useHistory, Link } from "react-router-dom";
 
-import { makeStyles } from "@material-ui/core/styles";
-import { logout, toggleDrawer } from "../../store/actions/authActions";
+import { useDispatch } from "react-redux";
+import {  Link } from "react-router-dom";
+
+
+import {  toggleDrawer } from "../../store/actions/authActions";
 
 import "../../styles/util.scss";
 import "../../styles/nav-bar.scss";
 
-const useStyles = makeStyles((theme) => ({
-  menuButton: {
-    marginRight: theme.spacing(2),
-  },
-  pushBtn: {
-    marginLeft: "auto",
-  },
-}));
+
 
 function NavBar() {
   let dispatch = useDispatch();

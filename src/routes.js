@@ -1,5 +1,5 @@
 import { lazy } from "react";
-const TodoList = lazy(() => import("./screens/TodoList"));
+
 const ProjectsList = lazy(() => import("./screens/Projects"));
 
 
